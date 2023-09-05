@@ -16,22 +16,6 @@
   <material name="white">
     <color rgba="1 1 1 1"/>
   </material>
-  <!--Base plate-->
-  <link name="schunk_egp40_base_link">
-    <visual>
-      <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/flange_v3.STL" scale="0.001 0.001 0.001"/>
-      </geometry>
-      <material name="blue"/>
-      <origin rpy="3.141592653589793 0 0" xyz="-0.0325 0.0325 0.015"/>
-    </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/flange_v3.STL" scale="0.001 0.001 0.001"/>
-      </geometry>
-      <origin rpy="3.141592653589793 0 0" xyz="-0.0325 0.0325 0.015"/>
-    </collision>
-  </link>
   <!--Main gripper-->
   <link name="schunk_egp40_body_link">
     <visual>
