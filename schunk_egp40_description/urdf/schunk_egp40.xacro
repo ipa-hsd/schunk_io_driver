@@ -84,13 +84,6 @@
 
 
         <!-- Joints-->
-
-        <joint name="${prefix}schunk_egp40_body_joint" type="fixed">
-            <parent link="${prefix}schunk_egp40_base_link" />
-            <child link="${prefix}schunk_egp40_body_link" />
-            <origin xyz="0.0 0.0 ${body_height/2+base_height}" rpy="0.0 0.0 0.0" />
-        </joint>
-
         <joint name="${prefix}schunk_egp40_finger_left_joint" type="prismatic">
             <parent link="${prefix}schunk_egp40_body_link" />
             <child link="${prefix}schunk_egp40_finger_left_link" />
@@ -112,7 +105,7 @@
         </joint>
 
         <joint name="${prefix}schunk_egp40_tip_joint" type="fixed">
-            <parent link="${prefix}schunk_egp40_base_link" />
+            <parent link="${prefix}schunk_egp40_body_link" />
             <child link="tool_tip" />
             <origin xyz="0 0 ${body_height_max}" rpy="0.0 0.0 0.0" />
         </joint>
@@ -122,7 +115,7 @@
             type="fixed"
         >
             <parent link="${parent}" />
-            <child link="${prefix}schunk_egp40_base_link" />
+            <child link="${prefix}schunk_egp40_body_link" />
             <xacro:insert_block name="origin" />
         </joint>
 

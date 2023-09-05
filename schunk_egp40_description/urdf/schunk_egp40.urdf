@@ -70,11 +70,6 @@
   <!-- Virtual link for visualizytion and planning-->
   <link name="tool_tip"/>
   <!-- Joints-->
-  <joint name="schunk_egp40_body_joint" type="fixed">
-    <parent link="schunk_egp40_base_link"/>
-    <child link="schunk_egp40_body_link"/>
-    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.05155"/>
-  </joint>
   <joint name="schunk_egp40_finger_left_joint" type="prismatic">
     <parent link="schunk_egp40_body_link"/>
     <child link="schunk_egp40_finger_left_link"/>
@@ -94,13 +89,13 @@
     <limit effort="100" lower="0.0025" upper="-0.0025" velocity="100"/>
   </joint>
   <joint name="schunk_egp40_tip_joint" type="fixed">
-    <parent link="schunk_egp40_base_link"/>
+    <parent link="schunk_egp40_body_link"/>
     <child link="tool_tip"/>
     <origin rpy="0.0 0.0 0.0" xyz="0 0 0.0884"/>
   </joint>
   <joint name="schunk_egp40_base_joint" type="fixed">
     <parent link="world"/>
-    <child link="schunk_egp40_base_link"/>
+    <child link="schunk_egp40_body_link"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
 </robot>
