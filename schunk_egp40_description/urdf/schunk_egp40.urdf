@@ -4,7 +4,6 @@
 <!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
 <!-- =================================================================================== -->
 <robot name="schunk_egp40">
-  <link name="world"/>
   <!-- Specify some standard inertial calculations https://en.wikipedia.org/wiki/List_of_moments_of_inertia -->
   <!-- These make use of xacro's mathematical functionality -->
   <!--Main gripper-->
@@ -92,10 +91,5 @@
     <parent link="schunk_egp40_body_link"/>
     <child link="tool_tip"/>
     <origin rpy="0.0 0.0 0.0" xyz="0 0 0.0884"/>
-  </joint>
-  <joint name="schunk_egp40_base_joint" type="fixed">
-    <parent link="world"/>
-    <child link="schunk_egp40_body_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
 </robot>
