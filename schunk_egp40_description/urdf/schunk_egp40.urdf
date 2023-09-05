@@ -11,13 +11,13 @@
   <link name="schunk_egp40_body_link">
     <visual>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.013 -0.03655"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.013 -0.03655"/>
     </collision>
@@ -31,13 +31,13 @@
   <link name="schunk_egp40_finger_left_link">
     <visual>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
     </collision>
@@ -51,13 +51,13 @@
   <link name="schunk_egp40_finger_right_link">
     <visual>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://prbt_cell_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
     </collision>

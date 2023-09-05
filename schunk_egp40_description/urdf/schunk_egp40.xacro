@@ -24,13 +24,13 @@
         <link name="${prefix}schunk_egp40_body_link">
             <visual>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${body_width/2} ${-body_height/2}" />
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${body_width/2} ${-body_height/2}" />
             </collision>
@@ -43,13 +43,13 @@
         <link name="${prefix}schunk_egp40_finger_left_link">
             <visual>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${pincer_width/2} ${-body_height-pincer_height/2}" />
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${pincer_width/2} ${-body_height-pincer_height/2}" />
             </collision>
@@ -63,13 +63,13 @@
         <link name="${prefix}schunk_egp40_finger_right_link">
             <visual>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${pincer_width/2} ${-body_height-pincer_height/2}" />
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://prbt_cell_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001" />
+                    <mesh filename="package://schunk_egp40_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001" />
                 </geometry>
                 <origin rpy="${pi/2} 0 0" xyz="${-body_length/2} ${pincer_width/2} ${-body_height-pincer_height/2}" />
             </collision>
