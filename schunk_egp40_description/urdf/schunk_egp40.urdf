@@ -7,15 +7,6 @@
   <link name="world"/>
   <!-- Specify some standard inertial calculations https://en.wikipedia.org/wiki/List_of_moments_of_inertia -->
   <!-- These make use of xacro's mathematical functionality -->
-  <material name="blue">
-    <color rgba="0 0.2 1 1"/>
-  </material>
-  <material name="green">
-    <color rgba="0 0.9 0.3 1"/>
-  </material>
-  <material name="white">
-    <color rgba="1 1 1 1"/>
-  </material>
   <!--Main gripper-->
   <link name="schunk_egp40_body_link">
     <visual>
@@ -23,7 +14,6 @@
         <mesh filename="package://prbt_cell_description/meshes/schunk_egp40_body.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.013 -0.03655"/>
-      <material name="green"/>
     </visual>
     <collision>
       <geometry>
@@ -44,7 +34,6 @@
         <mesh filename="package://prbt_cell_description/meshes/schunk_finger_left.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
-      <material name="white"/>
     </visual>
     <collision>
       <geometry>
@@ -65,7 +54,6 @@
         <mesh filename="package://prbt_cell_description/meshes/schunk_finger_right.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="-0.02 0.008 -0.07925"/>
-      <material name="blue"/>
     </visual>
     <collision>
       <geometry>
